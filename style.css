@@ -1,0 +1,54 @@
+    body{
+            font-family: "Times New Roman", sans-serif;
+            background-image: url(sunrise.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        #app{
+            background: linear-gradient(135deg, #96fde7, #2310d3);;
+            width: 360px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        input{
+            padding: 10px;
+            width: 80%;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        button{
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        /* 🔵 Loading Spinner */
+        #loading {
+            display: none;
+            margin: 15px auto;
+            width: 40px;
+            height: 40px;
+            border: 5px solid #cce0ff;
+            border-top: 5px solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        #result{
+            margin-top: 30px;
+            font-size: 28px;
+        }
